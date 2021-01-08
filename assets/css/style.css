@@ -1,0 +1,864 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1.h2,h3,h4,h5,h6,p{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	
+	text-decoration: none;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.container{
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.section-padding{
+	padding: 30px 0;
+}
+
+.section-padding-l{
+	padding: 30px 0 10px 0;
+}
+
+@font-face {
+    font-family: 'FjallaOne';
+    src: url('../fonts/fjalla/FjallaOne.eot');
+    src: url('../fonts/fjalla/FjallaOne.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fjalla/FjallaOne.woff2') format('woff2'),
+        url('../fonts/fjalla/FjallaOne.woff') format('woff'),
+        url('../fonts/fjalla/FjallaOne.ttf') format('truetype'),
+        url('../fonts/fjalla/FjallaOne.svg#FjallaOne') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans-Extrabold.eot');
+    src: url('../fonts/open-sans/OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/open-sans/OpenSans-Extrabold.woff2') format('woff2'),
+        url('../fonts/open-sans/OpenSans-Extrabold.woff') format('woff'),
+        url('../fonts/open-sans/OpenSans-Extrabold.ttf') format('truetype'),
+        url('../fonts/open-sans/OpenSans-Extrabold.svg#OpenSans-Extrabold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans-Bold.eot');
+    src: url('../fonts/open-sans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/open-sans/OpenSans-Bold.woff2') format('woff2'),
+        url('../fonts/open-sans/OpenSans-Bold.woff') format('woff'),
+        url('../fonts/open-sans/OpenSans-Bold.ttf') format('truetype'),
+        url('../fonts/open-sans/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans.eot');
+    src: url('../fonts/open-sans/OpenSans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/open-sans/OpenSans.woff2') format('woff2'),
+        url('../fonts/open-sans/OpenSans.woff') format('woff'),
+        url('../fonts/open-sans/OpenSans.ttf') format('truetype'),
+        url('../fonts/open-sans/OpenSans.svg#OpenSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans-Light.eot');
+    src: url('../fonts/open-sans/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/open-sans/OpenSans-Light.woff2') format('woff2'),
+        url('../fonts/open-sans/OpenSans-Light.woff') format('woff'),
+        url('../fonts/open-sans/OpenSans-Light.ttf') format('truetype'),
+        url('../fonts/open-sans/OpenSans-Light.svg#OpenSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+.extra-img-1st{
+	width: 100%;
+	padding: 25px 0px;
+	background: url(../images/all.png) top no-repeat;
+	background-size: cover;
+}
+
+
+/* =============================================
+			  Start Heading Section                 
+================================================= */
+.header-section{
+	width: 100%;
+	padding: 20px 0px;
+	background: #262626;
+}
+.header{
+	width: 100%;
+}
+.header .logo{
+	width: 20%;
+	float: left;
+}
+
+.header .logo img{
+	width: 60%;
+}
+
+.header .main-menu{
+	width: 80%;
+	float: left;
+	border: 4px solid #e1b838;
+	margin-top: 10px;
+}
+
+.header .main-menu ul{
+	text-align: center;
+}
+.header .main-menu ul li{
+	display: inline;
+}
+.header .main-menu ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #e1b838;
+	display: inline-block;
+	padding: 10px 45px;
+	font-size: 25px;
+	font-family: 'Open Sans';
+}
+
+.header .main-menu ul li a:hover{
+	background: #e1b838;
+	color: #262626;
+}
+/* =============================================
+			  End Heading Section                 
+================================================= */
+
+
+/* =============================================
+			  Start banner Section                 
+================================================= */
+.banner-section{
+	width: 100%;
+	padding: 100px 0px;
+	background: url(../images/banner-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.banner{
+	width: 100%;
+	text-align: center;
+}
+
+.banner h2{
+	font-size: 40px;
+	font-weight: 700;
+	color: #262626 ;
+	background:#e1b838;
+	display: inline-block;
+	font-family: 'Open Sans';
+	padding: 10px 26px;
+	margin-top: 80px;
+	border: 4px solid transparent;
+}
+
+.banner h2:hover{
+	border: 4px solid #e1b838;
+	color: #fff;
+	background: transparent;
+}
+.banner h3{
+	font-size: 35px;
+	font-weight: 700;
+	color: #fff ;
+	border: 4px solid #e1b838;
+	display: inline-block;
+	font-family: 'Open Sans';
+	padding: 10px 28.5px;
+}
+
+
+
+.banner p{
+	font-size: 32px;
+	font-weight: 300;
+	color: #fff ;
+	display: inline-block;
+	font-family: 'Open Sans';
+	margin-top: 50px;
+}
+
+.banner img{
+	margin-top: 30px;
+}
+/* =============================================
+			  End banner Section                 
+================================================= */
+
+/* =============================================
+			  Start menu Section                 
+================================================= */
+.menu-section{
+	width: 100%;
+	padding: 0px 0px 80px 0px;
+	background: url(../images/menu-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.menu-section .menu{
+	width: 100%;
+	text-align: center;
+}
+
+.menu-section .menu img{
+	margin-top: 70px;
+}
+.menu .menu-img{
+	width: 100%;
+}
+
+.menu .menu-img .menu-img-inner{
+	width: 33.33%;
+	float: left;
+	margin-top: -50px;
+}
+
+.menu .menu-img .menu-img-inner img{
+	width: 70%;
+	
+}
+
+.menu .menu-img .menu-img-inner span img{
+	width: 60%;
+}
+/* menu-1st */
+.menu .menu-1st{
+	width: 100%;
+}
+
+.menu .menu-1st .menu-1st-inner{
+	width: 33.33%;
+	float: left;
+	text-align: left;
+}
+
+.menu-1st-inner-heading{
+	width: 80%;
+	background: #e1b838;
+	margin: 0 auto;
+}
+ .menu-1st-inner h6{
+	font-size: 30px;
+	font-weight: 700;
+	color: #262626 ;
+	font-family: 'Open Sans';
+	display: inline-block;
+	margin-left: 8px;
+}
+
+
+.menu-1st-inner-text{
+	width: 80%;
+	border: 2px solid #e1b838;
+	margin: 0 auto;
+}
+ .menu-1st-inner p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff ;
+	display: inline-block;
+	font-family: 'Open Sans';
+	margin-left: 8px;
+	margin-top: 8px;
+}
+
+.menu-1st-inner p:hover{
+	background: #e1b838;
+	color: #262626;
+	padding: 0px 5px 0px 2px;
+}
+ .menu-1st-inner p:first-child{
+	margin-top: 10px;
+}
+ .menu-1st-inner p:last-child{
+	margin-bottom: 10px;
+}
+
+/* menu-2nd */
+
+.menu .menu-2nd{
+	width: 100%;
+}
+
+.menu .menu-2nd .menu-1st-inner{
+	width: 33.33%;
+	float: left;
+	text-align: left;
+	margin-top: 50px;
+}
+
+
+/* =============================================
+			  End menu Section                 
+================================================= */
+
+/* =============================================
+			  Start discount Section                 
+================================================= */
+.discount-section{
+	width: 100%;
+	padding: 100px 0px;
+	background: url(../images/discount-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.discount{
+	width: 100%;
+}
+
+.discount .discount-left{
+	width: 50%;
+	float: left;
+}
+
+.discount .discount-left img{
+	width: 90%;
+	margin-top: 20px;
+}
+.discount .discount-right{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+
+.discount .discount-right h5{
+	font-size: 45px;
+	line-height: 50px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	color: #e1b838 ;
+	font-family: 'Open Sans';
+	display: inline-block;
+	margin-top: 60px;
+
+}
+.discount .discount-right .discount-btn{
+	margin-top: 30px;
+}
+.discount .discount-right .discount-btn a{
+	text-transform: capitalize;
+	color: #262626;
+	background: #e1b838;
+	padding: 4px 30px;
+	font-size: 25px;
+	font-family: 'FjallaOne';
+}
+
+.discount .discount-right .discount-btn a:hover{
+	background: #fff;
+	color: #e1b838;
+}
+.discount .discount-right img{
+	margin-top: 80px;
+}
+.discount .discount-right span img{
+	margin-top: 20px;
+	margin-right: 150px;
+}
+
+/* =============================================
+			  End discount Section                 
+================================================= */
+
+/* =============================================
+			  Start special Section                 
+================================================= */
+.special-section{
+	width: 100%;
+	padding:  50px 0px 450px 0px;
+	background: url(../images/special-bg.png) top no-repeat;
+	background-size: cover;
+
+}
+
+.special{
+	width: 100%;
+}
+
+.special-top{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.special-top-left{
+	width: 50%;
+	float: left;
+	
+}
+
+.special-top-left h2{
+	font-size: 35px;
+	font-weight: 700;
+	color: #262626 ;
+	background:#e1b838;
+	display: inline-block;
+	font-family: 'Open Sans';
+	text-align: center;
+	padding: 10px 16px;
+	margin-top: 10px;
+	border: 4px solid transparent;
+}
+
+.special-top-left h2:hover{
+	background: transparent;
+	color: #fff;
+	border: 4px solid #e1b838;
+}
+.special-top-left h3{
+	font-size: 32px;
+	font-weight: 700;
+	color: #fff ;
+	border: 4px solid #e1b838;
+	display: inline-block;
+	font-family: 'Open Sans';
+	padding: 10px 119.5px;
+	text-align: center;
+}
+
+.special-top-right{
+	width: 50%;
+	float: left;
+}
+
+.special-top-right p{
+	font-size: 22px;
+	line-height: 28px;
+	font-weight: 300;
+	color: #fff ;
+	display: inline-block;
+	font-family: 'Open Sans';
+	margin-top: 10px;
+}
+
+
+/* special-bottom */
+
+.special-bottom{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.special-bottom-left{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+.special-bottom-left img{
+	width: 100%;
+	position: absolute;
+	left: -550px;
+	margin-top: 20px;
+	
+}
+.special-bottom-right{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+.special-bottom-right-top{
+	width: 100%;
+	text-align: right;
+	position: absolute;
+	margin-left: 0px;
+	top: 10px;
+}
+
+.special-bottom-right-bottom{
+	width: 100%;
+	position: absolute;
+	margin-left: 60px;
+	top: 200px;
+}
+
+.special-bottom-right-bottom img{
+	width: 40%;
+}
+
+/* =============================================
+			  End special Section                 
+================================================= */
+
+/* =============================================
+			  Start method Section                 
+================================================= */
+.method-section{
+	width: 100%;
+	padding: 30px 0px 50px 0px;
+	background: url(../images/methood-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.method-section .method{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.method-left{
+	width: 50%;
+	float: left;
+	height: 140px;
+	background: transparent;
+}
+
+.method-right{
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.method-right-inner{
+	width:80%;
+	margin-top:300px;
+	margin-bottom: 200px;
+}
+
+.method-right h2{
+	font-size: 35px;
+	font-weight: 700;
+	color: #262626 ;
+	background:#e1b838;
+	display: inline-block;
+	font-family: 'Open Sans';
+	padding: 10px 138px 10px 13px;
+	margin-top: 10px;
+	text-align: left;
+	border: 4px solid transparent;
+}
+
+.method-right h2:hover{
+	background: transparent;
+	color: #fff;
+	border: 4px solid #e1b838;
+}
+.method-right p{
+	font-size: 22px;
+	line-height: 28px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	color: #fff ;
+	display: inline-block;
+	font-family: 'Open Sans';
+	padding: 10px 22px 10px 19px;
+	border: 4px solid #e1b838;
+	text-align: left;
+}
+/* =============================================
+			  End method Section                 
+================================================= */
+
+/* =============================================
+			  Start music Section                 
+================================================= */
+.music-section{
+	width: 100%;
+	padding: 50px 0px 400px 0px;
+	background: url(../images/music-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.music-section .music{
+	width: 100%;
+}
+
+.music-top{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.music-top-left{
+	width: 50%;
+	float: left;
+	text-align: center;
+	
+}
+
+.music-extra{
+	width: 100%;
+}
+.music-top-left h2{
+	font-size: 35px;
+	font-weight: 700;
+	color: #262626 ;
+	background:#e1b838;
+	display: inline-block;
+	font-family: 'Open Sans';
+	padding: 10px 96px;
+	margin-top: 10px;
+	border: 4px solid transparent;
+}
+
+.music-top-left h2:hover{
+	background: transparent;
+	color: #fff;
+	border: 4px solid #e1b838;
+}
+
+.music-top-left h3{
+	font-size: 32px;
+	font-weight: 700;
+	color: #fff ;
+	border: 4px solid #e1b838;
+	display: inline-block;
+	font-family: 'Open Sans';
+	padding: 10px 94px;
+	text-align: center;
+	
+}
+
+.music-top-left h3 span p{
+	font-size: 30px;
+	font-weight: 400;
+	color: #fff ;
+	display: inline-block;
+	font-family: 'Open Sans';
+	padding: 10px 15px 10px 15px;
+	text-align: center;
+	
+}
+
+.music-top-right{
+	width: 50%;
+	float: left;
+}
+
+.music-top-right p{
+	font-size: 22px;
+	line-height: 28px;
+	font-weight: 300;
+	color: #fff ;
+	display: inline-block;
+	font-family: 'Open Sans';
+	margin-top: 100px;
+}
+/* =============================================
+			  End music Section                 
+================================================= */
+
+/* =============================================
+			  Start footer Section                 
+================================================= */
+.footer-section{
+	width: 100%;
+	background: #262626;
+}
+
+.footer{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.footer-logo{
+	width: 100%;
+	text-align: center;
+}
+
+.footer-logo img{
+	width: 10%;
+	margin-top: 70px;
+}
+
+.footer-title{
+	width: 100%;
+	text-align: center;
+}
+
+/* footer-top */
+
+.footer-top{
+	width: 100%;
+}
+
+.footer-top-left{
+	width: 60%;
+	float: left;
+	text-align: center;
+}
+
+
+.footer-top-left h2{
+	font-size: 25px;
+	font-weight: 700;
+	color: #262626 ;
+	background:#e1b838;
+	display: inline-block;
+	font-family: 'Open Sans';
+	text-align: center;
+	padding: 10px 126px;
+	margin-top: 10px;
+	border: 4px solid transparent;
+}
+
+.footer-top-left h2:hover{
+	background: transparent;
+	color: #fff;
+	border: 4px solid #e1b838;
+}
+.footer-top-left h3{
+	font-size: 22px;
+	font-weight: 700;
+	color: #fff ;
+	border: 4px solid #e1b838;
+	display: inline-block;
+	font-family: 'Open Sans';
+	padding: 10px 20px;
+	text-align: center;
+}
+.footer-top-right{
+	width: 40%;
+	float: left;
+	margin-top: 20px;
+}
+
+.footer-menu-1st{
+	width: 30%;
+	float: left;
+	text-align: left;
+}
+
+.footer-menu-1st ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	padding: 10px 20px 2px 3px;
+}
+
+.footer-menu-1st ul li a:hover{
+	background: #e1b838;
+	padding: 10px 20px 2px 3px;
+	color: #262626;
+	border-radius: 6px;
+}
+.footer-menu-2nd{
+	width: 70%;
+	float: left;
+	text-align: left;
+}
+
+.footer-menu-2nd ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	padding-top: 10px;
+	padding: 10px 20px 2px 3px;
+}
+
+.footer-menu-2nd ul li a:hover{
+	background: #e1b838;
+	padding: 10px 20px 2px 3px;
+	color: #262626;
+	border-radius: 6px;
+}
+/* footer-bottom */
+
+.footer-bottom{
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+.footer-bottom-left{
+	width: 50%;
+	float: left ;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.footer-bottom-left p{
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 300;
+	color: #fff ;
+	display: inline-block;
+	font-family: 'Open Sans';
+}
+.footer-bottom-right{
+	width: 50%;
+	float: left ;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.social-icon{
+	width: 70%;
+	float: left;
+	text-align: right;
+}
+
+.social-icon i{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	text-align: center;
+	margin-right: 10px;
+	background: #e1b838;
+	color: #262626;
+}
+
+.social-icon i:hover{
+	background: #fff;
+	color: #262626;
+}
+.footer-bottom-right-right{
+	width: 30%;
+	float: left;
+}
+
+.footer-bottom-right-right p{
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 300;
+	color: #e1b838 ;
+	display: inline-block;
+	font-family: 'Open Sans';
+}
+/* =============================================
+			  End footer Section                 
+================================================= */
